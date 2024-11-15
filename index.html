@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration/Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Central_Institute_of_Technology%2C_Kokrajhar_Logo.png/200px-Central_Institute_of_Technology%2C_Kokrajhar_Logo.png" alt="Logo" class="logo">
+        <h1>User Registration/Login</h1>
+
+        <div class="form-container">
+            <div id="registrationForm" class="form">
+                <h2>Register</h2>
+                <input type="text" id="regUsername" placeholder="Username" required>
+                <input type="password" id="regPassword" placeholder="Password" required>
+                <button onclick="registerUser()">Register</button>
+                <p id="regMessage"></p>
+            </div>
+
+            <div id="loginForm" class="form hidden">
+                <h2>Login</h2>
+                <input type="text" id="loginUsername" placeholder="Username" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button onclick="loginUser()">Login</button>
+                <p id="loginMessage"></p>
+            </div>
+
+            <button onclick="toggleForms()">Switch to <span id="formSwitchText">Login</span></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

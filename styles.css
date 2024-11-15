@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://cit.ac.in/images/cit/bg-3.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+input {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
